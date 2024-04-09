@@ -1,0 +1,31 @@
+{
+  "name": "bybit-wagmi-connector",
+  "version": "1.0.0",
+  "description": "This small package allows you to add a dedicated, functional, connector to integrate Bybit Wallet into your wagmi ^v1 project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "wagmi": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3",
+    "viem": "^0.3.19"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "typescript": ">=4.9.4",
+    "viem": "^0.3.19"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
